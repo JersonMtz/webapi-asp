@@ -12,5 +12,6 @@ namespace web_asp.DataAccess
 
         // TODO: Add DbSets (Tables of our data base)
         public DbSet<User>? Users { get; set; }
+        public DbSet<Course>? Courses { get; set; }
     }
 }
